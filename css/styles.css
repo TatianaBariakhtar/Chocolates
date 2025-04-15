@@ -1,0 +1,124 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #111;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  .header {
+  }
+  .header-nav {
+  }
+  .header-menu-logo {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.12;
+    letter-spacing: -0.03em;
+    
+  }
+  .header-menu-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+
+  }
+  .header-soc {
+  }
+  .header-soc-link {
+  }
+  .hero {
+  }
+  .hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #fff;
+  }
+  .hero-btn {
+   font-weight: 600;
+   font-size: 14px;
+   color: #fff;
+  }
+  .hero-link {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+  }
+  .hero-link-scroll {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  color: #fff;
+  }
+  .avantages {
+  }
+  .avantages-title {
+  }
+  .avantages-list {
+  }
+  .avantages-item {
+  }
+  .avantages-title-item {
+   font-weight: 600;
+   font-size: 18px;
+   color: #fff;
+  }
+  .avantages-subtitle {
+   font-weight: 400;
+   font-size: 14px;
+   letter-spacing: -0.02em;
+   color: rgba(255, 255, 255, 0.7);
+  }
+  .avantages-title-last{
+   letter-spacing: 0.01em;
+  }
+  .ingredients {
+  }
+  .ingredients-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+
+  }
+  .ingredients-title-taste{
+    color: #fd9222;
+
+  }
+  .ingredients-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+  }
+  .ingredients-list {
+  }
+  .ingredients-list-item {
+  }
+  .ingredients-list-item-photo {
+  }
+  .ingredients-list-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .ingredients-list-point{
+    color: #111;
+  }
+  
