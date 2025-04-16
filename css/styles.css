@@ -99,7 +99,7 @@ body {
   .ingredients-subtitle {
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.28;
     letter-spacing: -0.02em;
     text-align: center;
 
@@ -113,7 +113,7 @@ body {
   .ingredients-list-title {
     font-weight: 600;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.28;
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #fff;
@@ -121,4 +121,121 @@ body {
   .ingredients-list-point{
     color: #111;
   }
-  
+  .craft {
+  }
+  .craft-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+   
+  }
+  .craft-highlight {
+    color: #fd9222;
+  }
+  .craft-picture {
+  }
+  .craft-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.34;
+  }
+  .craft-list {
+  }
+  .craft-item {
+  }
+  .craft-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  }
+  .reviews {
+  }
+  .reviews-title {
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 1.17;
+   letter-spacing: -0.03em;
+   text-transform: uppercase;
+   text-align: center;
+   color: #fd9222;
+  }
+  .reviews-highlight{
+    color: #111;
+  }
+  .reviews-list {
+  }
+  .reviews-item {
+  }
+  .reviews-picture {
+  }
+  .reviews-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.34;
+    text-align: center;
+   }
+  .reviews-text {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.28;
+   letter-spacing: -0.02em;
+   text-align: center;
+   color: rgba(17, 17, 17, 0.7);
+  }
+  .reviews-btn {
+   font-weight: 600;
+   font-size: 18px;
+  }
+  .footer {
+  }
+  .footer-quote {
+   font-weight: 500;
+   font-size: 28px;
+   line-height: 1.22;
+   letter-spacing: -0.02em;
+   color: #fd9222;
+  }
+  .footer-highlight{
+    color: #fff;
+  }
+  .footer-contact-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  text-align: center;
+  color: #fff;
+  }
+  .footer-address {
+  }
+  .footer-contact-list {
+  }
+  .footer-contact-item {
+  }
+  .footer-contact-link {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.28571;
+   letter-spacing: -0.02em;
+   text-align: center;
+   color: #fff;
+  }
+  .footer-nav {
+  }
+  .footer-nav-point {
+  }
+  .footer-nav-link {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14286;
+   letter-spacing: -0.02em;
+   color: #fff;
+  }
+  .footer-btn {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  }
