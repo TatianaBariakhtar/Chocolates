@@ -35,7 +35,7 @@ a {
 
 .container-narrow{
   
-  width: 1086px;
+  width: 1096px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -84,13 +84,36 @@ button {
   padding-bottom: 28px;
 }
 
+.header-navigation{
+  display: flex;
+  align-items: center;
+}
+
+.header-menu-list{
+  display: flex;
+  gap: 24px;
+  
+}
+
+.header-soc-list{
+  display: flex;
+  margin-left: auto;
+}
+
+.header-container{
+  display: flex;
+  align-items: center;
+}
+
 .header-logo {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.11;
   letter-spacing: -0.03em;
   color: #111;
+  margin-right: 100px;
 }
+
 
 .header-logo-italic {
   font-style: italic;
@@ -109,12 +132,13 @@ button {
   color: #fd9222;
 }
 
-.header-logo, .header-logo-italic{
+/* .header-logo, .header-logo-italic{
   padding-top: 28px;
   padding-left: 32px;
-}
+} */
 
 .header-soc-list{
+  gap: 18px;
 
 }
 
@@ -144,6 +168,8 @@ button {
   letter-spacing: -0.03em;
   color: #fff;
   margin-bottom: 32px;
+  max-width: 484px;
+
  
 }
 
@@ -154,16 +180,29 @@ button {
   font-weight: 600;
   font-size: 14px;
   color: #fff;
+  padding: 14px 40px;
+  background-color: #fd9222;
+  border-radius: 100px;
+  border: none;
 }
 
 .hero-anchor-link {
   font-weight: 600;
   font-size: 14px;
   color: #fff;
+  padding: 14px 40px;
+  border: 1px solid #fff;
+  border-radius: 100px;
 }
 
 .hero-anchor-link:focus {
   color: #fd9222;
+}
+
+.hero-buttons{
+  display: flex;
+  align-items: center;
+  gap: 14px;
 }
 
 .hero-scroll-link {
@@ -172,6 +211,7 @@ button {
   line-height: 1.28571;
   letter-spacing: -0.03em;
   color: #fff;
+  margin-left: auto;
 }
 
 /*---------------- FEATURES------------------- */
@@ -182,11 +222,20 @@ button {
   padding-bottom: 50px;
 }
 
+.features-list{
+  display: flex;
+  gap: 70px;
+}
+
 .features-subtitle {
   font-weight: 600;
   font-size: 18px;
   color: #fff;
   margin-bottom: 18px;
+}
+
+.features-item{
+  width: calc((100% - 2 * 70px)/ 3);
 }
 
 .features-item-text {
@@ -204,7 +253,10 @@ padding-bottom: 50px;
 }
 
 .taste-title {
-  margin-bottom: 28px;
+  
+  max-width: 411px;
+  margin: 0 auto 28px auto;
+  
 }
 
 .taste-text {
@@ -214,18 +266,24 @@ padding-bottom: 50px;
   text-align: center;
   color: #111;
   margin-bottom: 50px;
+  max-width: 486px;
+  margin: 0 auto 50px;
 }
 
 .taste-list {
+  display: flex;
+  gap: 19px;
 }
 
 .taste-item {
 border: 1px solid #fd9222;
 border-radius: 15px;
 padding: 28px 32px;
+width: calc((100% - 3 * 19px)/ 4);
 }
 
 .taste-item-image {
+ 
 }
 
 .taste-subtitle {
@@ -245,7 +303,9 @@ padding: 28px 32px;
 }
 
 .made-title {
-  margin-bottom: 50px;
+  
+  max-width: 205px;
+  margin: 0 auto 50px;
 }
 
 .made-image {
